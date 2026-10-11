@@ -1,0 +1,38 @@
+# DigiNode Tools media
+
+Screenshots and images for [DigiNode Tools](https://github.com/DigiNode-Tools/diginode-tools): release notes, release announcements (Telegram and Bluesky) and the website.
+
+They live here, not in the diginode-tools repo, because every DigiNode downloads that repo when it installs or updates DigiNode Tools - images there would be downloaded to every user's DigiNode for no reason.
+
+## Layout
+
+- `screenshots/<feature>/` - screenshots of a feature, e.g. `screenshots/auto-updates/menu.png`. Folders are named by
+  feature (not release number) so the links never change.
+- `tools/render-screenshot.py` - renders a terminal screen recorded on a DigiNode as a clean PNG.
+
+Images are added to a release note in `docs/release_notes.md` (diginode-tools repo) with an image line under the note,
+using the raw URL. The text in square brackets is the alt text (a description for people who can't see the image):
+
+```
+- New: DigiNode Setup can now install operating system updates for you automatically...
+  ![The new Automatic System Updates menu in DigiNode Setup](https://raw.githubusercontent.com/DigiNode-Tools/diginode-media/main/screenshots/auto-updates/menu.png)
+```
+
+The image then appears under that note in the GitHub release, on that note's post in the Bluesky thread, and in a
+photo album after the Telegram announcement. Usually at most one image per note, and only for things you can see.
+
+## Making a screenshot
+
+1. On the DigiNode, set a tidy terminal size and record the screen:
+   ```
+   stty cols 100 rows 30
+   script -q -f -c "diginode-setup" ~/cap.txt
+   ```
+2. Go to the screen you want, then (while it is showing) copy the recording to your Mac:
+   ```
+   scp diginode:cap.txt .
+   ```
+3. Render it (the last screen in the recording is drawn):
+   ```
+   python3 tools/render-screenshot.py cap.txt 100 30 screenshot.png
+   ```
