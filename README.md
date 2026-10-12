@@ -36,3 +36,7 @@ photo album after the Telegram announcement. Usually at most one image per note,
    ```
    python3 tools/render-screenshot.py cap.txt 100 30 screenshot.png
    ```
+
+## Licence
+
+The logo and screenshots can be used to link to or write about DigiNode Tools without asking - see [LICENCE.md](LICENCE.md) and the [name and logo policy](https://github.com/DigiNode-Tools/diginode-tools/blob/main/TRADEMARKS.md). The DigiNode Tools logo includes the DigiByte logo (MIT, [DigiByte-Core/digibyte-logos](https://github.com/DigiByte-Core/digibyte-logos)).
