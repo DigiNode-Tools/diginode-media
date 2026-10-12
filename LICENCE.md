@@ -1,4 +1,4 @@
-Copyright (c) 2021-2026 Olly Stedall (https://diginode.tools). All rights reserved, except as allowed below.
+Copyright (c) 2021-2026 Oliver Stedall (https://diginode.tools). All rights reserved, except as allowed below.
 
 The images in this repository (the DigiNode Tools logo in brand/, and the screenshots of DigiNode Tools in screenshots/) may be used without asking, to link to DigiNode Tools or to write about it: articles, reviews, tutorials, videos, news and social media posts. Please use the logo as provided, without changing its shape, colours or proportions (resizing is fine), and don't suggest DigiNode Tools endorses, sponsors or is part of your product, service or project. For anything else, please ask first: olly@diginode.tools
 
