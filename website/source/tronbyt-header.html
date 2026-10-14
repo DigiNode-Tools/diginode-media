@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1000px;height:333px;background:transparent;overflow:hidden}
+.row{display:flex;gap:64px;justify-content:center;align-items:center;height:333px}
+.dev{position:relative;width:420px;padding:16px 18px 18px;border-radius:14px;
+ background:linear-gradient(160deg,#9a6a43 0%,#7a4e2d 35%,#5e3a20 70%,#7d5131 100%);
+ box-shadow:0 22px 34px rgba(0,0,0,.55), inset 0 2px 2px rgba(255,255,255,.25), inset 0 -3px 4px rgba(0,0,0,.35)}
+.dev:before{content:"";position:absolute;inset:0;border-radius:14px;opacity:.18;
+ background:repeating-linear-gradient(100deg,rgba(0,0,0,.6) 0 2px,transparent 2px 9px,rgba(255,255,255,.3) 9px 10px,transparent 10px 17px)}
+.scr{position:relative;background:#050505;border-radius:4px;padding:6px;box-shadow:inset 0 0 0 2px #1a1a1a}
+.scr img{display:block;width:372px;height:186px;image-rendering:pixelated;-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='64' viewBox='0 0 128 64'%3E%3Cdefs%3E%3Cpattern id='d' width='1' height='1' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='.5' cy='.5' r='.43' fill='white'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='128' height='64' fill='url(%23d)'/%3E%3C/svg%3E");-webkit-mask-size:100% 100%;filter:drop-shadow(0 0 6px rgba(80,140,255,.55)) brightness(1.08)}
+.foot{position:absolute;left:50%;bottom:-14px;width:120px;margin-left:-60px;height:14px;border-radius:0 0 8px 8px;background:linear-gradient(#4a2e18,#2e1c0e);z-index:-1}
+</style></head><body><div class="row">
+<div class="dev"><div class="scr"><img src="digifacts-frame-000.png"></div><div class="foot"></div></div>
+<div class="dev"><div class="scr"><img src="p.png"></div><div class="foot"></div></div>
+</div></body></html>
