@@ -1,6 +1,6 @@
 # DigiNode Tools media
 
-Screenshots and images for [DigiNode Tools](https://github.com/DigiNode-Tools/diginode-tools): release notes, release announcements (Telegram and Bluesky) and the website.
+Screenshots and images for [DigiNode Tools](https://github.com/DigiNode-Tools/diginode-tools): release notes, release announcements (Telegram and Bluesky), the website and the sponsor pages.
 
 They live here, not in the diginode-tools repo, because every DigiNode downloads that repo when it installs or updates DigiNode Tools - images there would be downloaded to every user's DigiNode for no reason.
 
@@ -8,6 +8,9 @@ They live here, not in the diginode-tools repo, because every DigiNode downloads
 
 - `screenshots/<feature>/` - screenshots of a feature, e.g. `screenshots/auto-updates/menu.png`. Folders are named by
   feature (not release number) so the links never change.
+- `sponsor/` - images for sponsoring DigiNode Tools, e.g. `sponsor/dgb-donation-card.png` (the DGB donation card,
+  used on Ko-fi, GitHub Sponsors and in the sponsor text). Each is drawn from an HTML file in `sponsor/source/`,
+  with the command at the top of the file.
 - `tools/render-screenshot.py` - renders a terminal screen recorded on a DigiNode as a clean PNG.
 
 Images are added to a release note in `docs/release_notes.md` (diginode-tools repo) with an image line under the note,
