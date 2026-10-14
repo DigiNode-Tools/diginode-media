@@ -8,9 +8,11 @@ They live here, not in the diginode-tools repo, because every DigiNode downloads
 
 - `screenshots/<feature>/` - screenshots of a feature, e.g. `screenshots/auto-updates/menu.png`. Folders are named by
   feature (not release number) so the links never change.
-- `sponsor/` - images for sponsoring DigiNode Tools: `sponsor-banner.png` (leads people to diginode.tools/sponsors, with the DGB QR code; used in the diginode-sponsors README), `kofi-banner.png` (the Ko-fi cover, 1500x500 at 2x), `dgb-donation-qr.png` (the DGB donation address as a dotted QR
-  code with the DigiNode logo) and `dgb-donation-card.png` (the DGB donation card, used on Ko-fi, GitHub Sponsors and
-  in the sponsor text). How to draw them again: `sponsor/source/dgb-donation-qr.md`.
+- `sponsor/` - images for sponsoring DigiNode Tools: `sponsor-banner.png` (leads people to diginode.tools/sponsors; used in the
+  diginode-sponsors README) and `kofi-banner.png` (the Ko-fi cover, 1500x500 at 2x). `dgb-donation-qr.png` and
+  `dgb-donation-card.png` are for the **original** DGB donation address only - each donation now goes to a new address, so
+  the current QR code and card are drawn automatically in [diginode-sponsors](https://github.com/DigiNode-Tools/diginode-sponsors/tree/main/images).
+  Don't use these two anywhere new. How they were drawn: `sponsor/source/dgb-donation-qr.md`.
 - `website/` - images for the diginode.tools website, e.g. `website/tronbyt-header.png`. Sources and how to draw
   them again: `website/source/README.md`.
 - `tools/render-screenshot.py` - renders a terminal screen recorded on a DigiNode as a clean PNG.
