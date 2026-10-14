@@ -8,7 +8,7 @@ They live here, not in the diginode-tools repo, because every DigiNode downloads
 
 - `screenshots/<feature>/` - screenshots of a feature, e.g. `screenshots/auto-updates/menu.png`. Folders are named by
   feature (not release number) so the links never change.
-- `sponsor/` - images for sponsoring DigiNode Tools: `dgb-donation-qr.png` (the DGB donation address as a dotted QR
+- `sponsor/` - images for sponsoring DigiNode Tools: `kofi-banner.png` (the Ko-fi cover, 1500x500 at 2x), `dgb-donation-qr.png` (the DGB donation address as a dotted QR
   code with the DigiNode logo) and `dgb-donation-card.png` (the DGB donation card, used on Ko-fi, GitHub Sponsors and
   in the sponsor text). How to draw them again: `sponsor/source/dgb-donation-qr.md`.
 - `website/` - images for the diginode.tools website, e.g. `website/tronbyt-header.png`. Sources and how to draw
