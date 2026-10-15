@@ -8,6 +8,7 @@ They live here, not in the diginode-tools repo, because every DigiNode downloads
 
 - `screenshots/<feature>/` - screenshots of a feature, e.g. `screenshots/auto-updates/menu.png`. Folders are named by
   feature (not release number) so the links never change.
+- `website/share/` - social share cards (1200x630) for the pages of diginode.tools, set as each page's Facebook/X image. Drawn by `website/source/share-cards/build.py` from `cards.json` (text), `art/` (pictures) and `assets/` (images and logos - Simple Icons, CC0) - edit those and run it again, don't edit the PNGs.
 - `sponsor/` - images for sponsoring DigiNode Tools: `sponsor-banner.png` (leads people to diginode.tools/sponsors; used in the
   diginode-sponsors README) and `kofi-banner.png` (the Ko-fi cover, 1500x500 at 2x). `dgb-donation-qr.png` and
   `dgb-donation-card.png` are for the **original** DGB donation address only - each donation now goes to a new address, so

@@ -1,0 +1,350 @@
+{
+  "_comment": "Social share cards for diginode.tools - drawn by build.py into website/share/<id>.png and set as each page's social image in Yoast. image.style: 'cutout' (transparent picture, the default), 'screenshot' (framed), or 'art' (art/<file>.html); no image = the DigiNode badge. Optional: eyebrow, text_width, title_size, logo_width.",
+  "cards": [
+    {
+      "id": "home",
+      "title": "Run your own DigiByte Node",
+      "subtitle": "Set up, monitor and manage a DigiByte Node on a Raspberry Pi, Linux PC or VPS. Free.",
+      "url": "diginode.tools",
+      "logo_width": 330,
+      "text_width": 500,
+      "image": {
+        "style": "art",
+        "file": "home"
+      },
+      "title_size": 62
+    },
+    {
+      "id": "sponsors",
+      "eyebrow": "Sponsors",
+      "title": "Support DigiNode Tools",
+      "subtitle": "Sponsor monthly or donate once. See where your support goes:",
+      "url": "diginode.tools/sponsors",
+      "text_width": 560,
+      "image": {
+        "style": "art",
+        "file": "sponsors"
+      }
+    },
+    {
+      "id": "raspberry-pi-setup",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Build a DigiByte Node on a Raspberry Pi",
+      "subtitle": "Step by step, from assembling the case to running DigiNode Setup.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 540,
+      "title_size": 58,
+      "image": {
+        "style": "art",
+        "file": "raspberry-pi"
+      }
+    },
+    {
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "subtitle": "Answers to many common questions about DigiNode Tools and running a DigiByte Node.",
+      "url": "diginode.tools/faq",
+      "text_width": 600
+    },
+    {
+      "id": "port-tester",
+      "eyebrow": "Free tool",
+      "title": "DigiByte Port Tester",
+      "subtitle": "Check that other nodes can find your DigiByte Node. Works with IPv4, IPv6 and Tor.",
+      "url": "diginode.tools/digibyte-port-tester",
+      "text_width": 540,
+      "image": {
+        "style": "art",
+        "file": "port-tester"
+      }
+    },
+    {
+      "id": "tronbyt-apps",
+      "eyebrow": "Tronbyt Apps",
+      "title": "DigiByte Apps for Tronbyt",
+      "subtitle": "DigiFacts and the DGB price on your Tronbyt or Tidbyt display.",
+      "url": "diginode.tools/tronbyt-apps",
+      "text_width": 540,
+      "image": {
+        "file": "tronbyt-header.png",
+        "css": "right:40px;top:150px;width:520px"
+      }
+    },
+    {
+      "id": "release-notes",
+      "eyebrow": "Release Notes",
+      "title": "What's new in DigiNode Tools",
+      "subtitle": "Every new feature, improvement and fix, in every version.",
+      "url": "diginode.tools/release-notes",
+      "text_width": 560,
+      "image": {
+        "style": "art",
+        "file": "release-notes"
+      }
+    },
+    {
+      "id": "system-requirements",
+      "eyebrow": "System Requirements",
+      "title": "What you need to run a DigiNode",
+      "subtitle": "A Raspberry Pi, Linux PC or VPS - and what each needs.",
+      "url": "diginode.tools/system-requirements",
+      "text_width": 540,
+      "title_size": 60,
+      "image": {
+        "style": "art",
+        "file": "system-requirements"
+      }
+    },
+    {
+      "id": "digibyte-seeder",
+      "eyebrow": "Guide",
+      "title": "How to run a DigiByte Seeder",
+      "subtitle": "Help keep the DigiByte network robust: a lightweight crawler that lists reliable nodes over DNS.",
+      "url": "diginode.tools/running-a-digibyte-seeder",
+      "text_width": 560,
+      "title_size": 60,
+      "image": {
+        "style": "art",
+        "file": "seeder"
+      }
+    },
+    {
+      "id": "advanced-features",
+      "eyebrow": "For power users",
+      "title": "Advanced Features",
+      "subtitle": "Command-line flags, unattended installs, and every setting you can change.",
+      "url": "diginode.tools/advanced-features",
+      "text_width": 520,
+      "image": {
+        "style": "art",
+        "file": "advanced-features"
+      }
+    },
+    {
+      "id": "why-run-a-diginode",
+      "eyebrow": "Why run a DigiNode?",
+      "title": "Take part in the DigiByte network",
+      "subtitle": "Run your own node: verify DigiByte for yourself and help keep the network strong.",
+      "url": "diginode.tools/why-run-a-diginode",
+      "text_width": 540,
+      "title_size": 58,
+      "image": {
+        "style": "art",
+        "file": "why-run"
+      }
+    },
+    {
+      "id": "rpi-step-1",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Assemble the Raspberry Pi and its case",
+      "subtitle": "Put the Pi in its case, and connect the SSD to your computer.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "1",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-1-assemble-case/"
+    },
+    {
+      "id": "rpi-step-2-mac",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Install Raspberry Pi Imager",
+      "subtitle": "Download and install the free tool that writes Raspberry Pi OS to your SSD.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "2",
+        "os": "Mac"
+      },
+      "page": "/raspberry-pi-setup/step-2-install-raspberry-pi-imager-macos/"
+    },
+    {
+      "id": "rpi-step-2-windows",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Install Raspberry Pi Imager",
+      "subtitle": "Download and install the free tool that writes Raspberry Pi OS to your SSD.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "2",
+        "os": "Windows"
+      },
+      "page": "/raspberry-pi-setup/step-2-install-raspberry-pi-imager-windows/"
+    },
+    {
+      "id": "rpi-step-3",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Write Raspberry Pi OS to the SSD",
+      "subtitle": "Configure and write Raspberry Pi OS with Raspberry Pi Imager.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "3",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-3-write-raspberry-pi-os-to-ssd/"
+    },
+    {
+      "id": "rpi-step-4",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Connect the SSD and power on",
+      "subtitle": "Plug in the SSD, power and network cable, then boot your Raspberry Pi.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "4",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-4-connect-ssd-and-boot-pi/"
+    },
+    {
+      "id": "rpi-step-5-mac",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Connect to your Pi with SSH",
+      "subtitle": "Log in to your Raspberry Pi from your Mac's Terminal.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "5",
+        "os": "Mac"
+      },
+      "page": "/raspberry-pi-setup/step-5-connect-ssh-macos/"
+    },
+    {
+      "id": "rpi-step-5-windows",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Connect to your Pi with SSH",
+      "subtitle": "Log in to your Raspberry Pi from your Windows PC.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "5",
+        "os": "Windows"
+      },
+      "page": "/raspberry-pi-setup/step-5-connect-ssh-windows/"
+    },
+    {
+      "id": "rpi-step-5b-mac",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Find your Raspberry Pi's IP address",
+      "subtitle": "How to look up your Pi's address on your network.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "5b",
+        "os": "Mac"
+      },
+      "page": "/raspberry-pi-setup/step-5b-discover-ip-address-of-raspberry-pi-from-macos/"
+    },
+    {
+      "id": "rpi-step-5b-windows",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Find your Raspberry Pi's IP address",
+      "subtitle": "How to look up your Pi's address on your network.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "5b",
+        "os": "Windows"
+      },
+      "page": "/raspberry-pi-setup/step-5b-discover-ip-address-of-raspberry-pi-from-windows/"
+    },
+    {
+      "id": "rpi-step-6",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Run DigiNode Setup",
+      "subtitle": "Install your DigiByte Node with the DigiNode Setup script.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "6",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-6-run-diginode-setup-script/"
+    },
+    {
+      "id": "rpi-step-7",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Fixed IP address and port forwarding",
+      "subtitle": "Make your DigiNode reachable so other nodes can find it.",
+      "url": "diginode.tools/raspberry-pi-setup",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "7",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-7-digibyte-port-forwarding/"
+    },
+    {
+      "id": "build-a-diginode",
+      "eyebrow": "Build a DigiNode",
+      "title": "Build a DigiNode with a Raspberry Pi 4",
+      "subtitle": "The parts you need: a Raspberry Pi 4, an SSD, and a case - Argon ONE M.2 or Flirc.",
+      "url": "diginode.tools/build-your-own-raspberry-pi-diginode",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "art",
+        "file": "raspberry-pi"
+      }
+    },
+    {
+      "id": "additional-features",
+      "eyebrow": "Additional Features",
+      "title": "Easy for beginners, flexible for experts",
+      "subtitle": "Everything else DigiNode Tools can do for your node.",
+      "url": "diginode.tools/additional-features",
+      "text_width": 520,
+      "title_size": 56,
+      "image": {
+        "style": "art",
+        "file": "additional-features"
+      }
+    },
+    {
+      "id": "software-licence",
+      "eyebrow": "Software Licence",
+      "title": "Free to use, public to check",
+      "subtitle": "DigiNode Tools' licence in plain English: what you can and can't do.",
+      "url": "diginode.tools/software-licence",
+      "text_width": 540,
+      "title_size": 60,
+      "image": {
+        "style": "art",
+        "file": "licence"
+      }
+    },
+    {
+      "id": "default",
+      "title": "Run your own DigiByte Node",
+      "subtitle": "Set up, monitor and manage a DigiByte Node on a Raspberry Pi, Linux PC or VPS. Free, and easy for beginners.",
+      "url": "diginode.tools",
+      "logo_width": 300,
+      "text_width": 560
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<style>
+.ways{position:absolute;right:70px;top:78px;width:420px;display:flex;flex-direction:column;gap:16px}
+.way{display:flex;align-items:center;gap:20px;padding:18px 24px;border-radius:18px;background:rgba(255,255,255,.07);
+  border:2px solid rgba(156,200,255,.28);font-weight:800;font-size:30px}
+.way svg{flex:none}
+.pay{position:absolute;right:70px;top:430px;width:420px}
+.pay .k{font-weight:700;font-size:19px;letter-spacing:2px;text-transform:uppercase;color:#7fb8ff;margin-bottom:12px}
+.pay .row{display:flex;gap:12px}
+.pay .chip{flex:1;height:64px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:#fff}
+</style>
+<div class="ways">
+  <div class="way">{{icon:githubsponsors:#EA4AAA:48}}GitHub Sponsors</div>
+  <div class="way">{{icon:kofi:#FF5E5B:48}}Ko-fi</div>
+  <div class="way">{{icon:digibyte-logo:original:48}}DigiByte (DGB)</div>
+</div>
+<div class="pay">
+  <div class="k">Pay by card or PayPal</div>
+  <div class="row">
+    <div class="chip">{{icon:paypal:#003087:40}}</div>
+    <div class="chip">{{icon:visa:#1A1F71:52}}</div>
+    <div class="chip"><svg width="60" height="38" viewBox="0 0 60 38" aria-label="Mastercard"><circle cx="21" cy="19" r="17" fill="#EB001B"/><circle cx="39" cy="19" r="17" fill="#F79E1B"/><path d="M30 4.6a17 17 0 0 1 0 28.8a17 17 0 0 1 0-28.8z" fill="#FF5F00"/></svg></div>
+    <div class="chip">{{icon:americanexpress:#2E77BC:44}}</div>
+  </div>
+</div>
