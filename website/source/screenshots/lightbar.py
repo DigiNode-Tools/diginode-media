@@ -58,11 +58,10 @@ def main(src, out):
     for y in range(top - 2, bottom + 2):
         for x in range(left - 1, right + 2):
             r, g, b, a = px[x, y]
-            if a == 0 or not is_grey((r, g, b)):
+            # only the window itself: the faint shadow around the rounded corners (black, under 20% opaque) stays
+            if a < 50 or not is_grey((r, g, b)):
                 continue
             v = SEPARATOR if y == bottom + 1 else light((r + g + b) / 3, dark)
-            if y < top and a < 255:          # the rounded top edge blends into the shadow - keep it soft
-                v = max(v, 160)
             px[x, y] = (v, v, v, a)
     # redraw the buttons (4x, then scaled down, so they stay smooth)
     s = 4
