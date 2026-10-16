@@ -1,0 +1,23 @@
+<style>
+.board{position:absolute;left:0;top:60px;width:290px;filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
+.case{position:absolute;right:0;top:44px;width:290px;filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
+.all{position:absolute;left:316px;width:368px;top:14px;border-radius:18px;overflow:hidden;background:rgba(11,18,32,.88);
+  border:2px solid rgba(156,200,255,.32);box-shadow:0 18px 34px rgba(0,0,0,.5)}
+.all .head{padding:11px 20px;background:#0066CC;font-weight:800;font-size:16px;letter-spacing:2.5px;text-transform:uppercase;text-align:center}
+.all ol{list-style:none;margin:0;padding:10px 20px 12px;display:flex;flex-direction:column;gap:6px}
+.all li{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px;line-height:1.2;color:#e6f1ff}
+.all li i{flex:none;width:26px;height:26px;border-radius:50%;background:#0066CC;display:flex;align-items:center;justify-content:center;
+  font-style:normal;font-weight:800;font-size:13px;color:#fff}
+</style>
+<img class="board" src="{{img:raspberry-pi-board.png}}">
+<img class="case" src="{{img:diginode-case-cutout.png}}">
+<div class="all"><div class="head">All 7 steps on one page</div>
+<ol>
+  <li><i>1</i>Assemble the case</li>
+  <li><i>2</i>Install Raspberry Pi Imager</li>
+  <li><i>3</i>Write Raspberry Pi OS</li>
+  <li><i>4</i>Connect the SSD and boot</li>
+  <li><i>5</i>Connect with SSH</li>
+  <li><i>6</i>Run DigiNode Setup</li>
+  <li><i>7</i>Port forwarding</li>
+</ol></div>

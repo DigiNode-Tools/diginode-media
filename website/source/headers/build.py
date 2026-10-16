@@ -37,6 +37,7 @@ TITLES = {
     "licence": "Software Licence",
     "faq": "Frequently Asked Questions",
     "support": "Support",
+    "rpi-setup": "Raspberry Pi Setup Guide - One Page Setup",
 }
 
 
