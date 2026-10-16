@@ -45,10 +45,12 @@ TITLES = {
 # Raspberry Pi setup guide steps: id => (step, computer, what it's about). Drawn by step_html, not from a .html file.
 STEPS = {
     "rpi-step-1": ("1", "", "Assemble the case"),
+    "rpi-step-2": ("2", "", "Install Raspberry Pi Imager"),
     "rpi-step-2-mac": ("2", "Mac", "Install Raspberry Pi Imager"),
     "rpi-step-2-windows": ("2", "Windows", "Install Raspberry Pi Imager"),
     "rpi-step-3": ("3", "", "Write Raspberry Pi OS"),
     "rpi-step-4": ("4", "", "Connect the SSD and boot"),
+    "rpi-step-5": ("5", "", "Connect to your Pi"),
     "rpi-step-5-mac": ("5", "Mac", "Connect with SSH"),
     "rpi-step-5-windows": ("5", "Windows", "Connect with SSH"),
     "rpi-step-5b-mac": ("5b", "Mac", "Find your Pi's IP address"),

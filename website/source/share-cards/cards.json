@@ -150,6 +150,21 @@
       "page": "/raspberry-pi-setup/step-1-assemble-case/"
     },
     {
+      "id": "rpi-step-2",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Install Raspberry Pi Imager",
+      "subtitle": "Download and install the free tool that writes Raspberry Pi OS to your SSD - on Windows or macOS.",
+      "url": "diginode.tools/raspberry-pi-setup/step-2-install-raspberry-pi-imager",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "2",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-2-install-raspberry-pi-imager/"
+    },
+    {
       "id": "rpi-step-2-mac",
       "eyebrow": "Raspberry Pi Setup Guide",
       "title": "Install Raspberry Pi Imager",
@@ -208,6 +223,21 @@
         "os": ""
       },
       "page": "/raspberry-pi-setup/step-4-connect-ssd-and-boot-pi/"
+    },
+    {
+      "id": "rpi-step-5",
+      "eyebrow": "Raspberry Pi Setup Guide",
+      "title": "Connect to your Pi",
+      "subtitle": "Log in to your Raspberry Pi with SSH from your Windows PC or Mac.",
+      "url": "diginode.tools/raspberry-pi-setup/step-5-connect-to-your-pi",
+      "text_width": 560,
+      "title_size": 56,
+      "image": {
+        "style": "step",
+        "step": "5",
+        "os": ""
+      },
+      "page": "/raspberry-pi-setup/step-5-connect-to-your-pi/"
     },
     {
       "id": "rpi-step-5-mac",
