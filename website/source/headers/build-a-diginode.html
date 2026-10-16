@@ -1,0 +1,26 @@
+<style>
+.board{position:absolute;left:0;top:78px;width:250px;filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
+.case{position:absolute;right:0;top:56px;width:270px;filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
+.list{position:absolute;left:268px;width:330px;top:30px;border-radius:18px;overflow:hidden;background:#fff;color:#002352;
+  box-shadow:0 18px 34px rgba(0,0,0,.5)}
+.list .head{padding:12px 20px;background:#0066CC;color:#fff;font-weight:800;font-size:16px;letter-spacing:2.5px;text-transform:uppercase;text-align:center}
+.list ul{list-style:none;margin:0;padding:12px 20px 14px;display:flex;flex-direction:column;gap:9px}
+.list li{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px;line-height:1.2}
+.list li i{flex:none;width:26px;height:26px;border-radius:7px;background:#1fa463;display:flex;align-items:center;justify-content:center;
+  font-style:normal;font-weight:800;font-size:16px;color:#fff}
+.list li small{font-weight:600;font-size:14px;color:#5b7290;margin-left:4px}
+.arrow{position:absolute;left:618px;top:160px;width:84px;height:4px;
+  background:repeating-linear-gradient(90deg,#5aa9ff 0 12px,transparent 12px 22px)}
+.arrow::after{content:"";position:absolute;right:-6px;top:-8px;border:10px solid transparent;border-left:14px solid #5aa9ff}
+</style>
+<img class="board" src="{{img:raspberry-pi-board.png}}">
+<div class="list"><div class="head">Shopping list</div>
+<ul>
+  <li><i>✓</i>Raspberry Pi 4 <small>8GB</small></li>
+  <li><i>✓</i>Official power supply</li>
+  <li><i>✓</i>Case <small>Argon ONE M.2 or Flirc</small></li>
+  <li><i>✓</i>SSD</li>
+  <li><i>✓</i>Ethernet cable</li>
+</ul></div>
+<div class="arrow"></div>
+<img class="case" src="{{img:diginode-case-cutout.png}}">
