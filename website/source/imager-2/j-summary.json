@@ -1,0 +1,5 @@
+{"src":"/private/tmp/claude-501/-Users-ollystedall-Projects-DigiNode-Tools/c1d38063-085d-4482-8050-7c8eef27edbb/scratchpad/imager-pick/11-summary-orig.png","out":"/private/tmp/claude-501/-Users-ollystedall-Projects-DigiNode-Tools/c1d38063-085d-4482-8050-7c8eef27edbb/scratchpad/imager-pick/11-summary.png","w":680,"h":482,
+ "css":"@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=block);",
+ "covers":[[366,229,280,22,"#fff"],[246,357,260,42,"#fff"]],
+ "blocks":[{"x":369,"y":231,"font":"Roboto","weight":700,"size":12,"lh":17,"color":"#000","lines":["Realtek RTL9210B-CG Media"]},
+           {"x":252,"y":359,"font":"Roboto","size":12,"lh":17,"color":"#000","lines":["• SSH enabled"]}]}

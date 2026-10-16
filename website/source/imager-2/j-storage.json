@@ -1,0 +1,5 @@
+{"src":"/private/tmp/claude-501/-Users-ollystedall-Projects-DigiNode-Tools/c1d38063-085d-4482-8050-7c8eef27edbb/scratchpad/imager-pick/04-storage-orig.png","out":"/private/tmp/claude-501/-Users-ollystedall-Projects-DigiNode-Tools/c1d38063-085d-4482-8050-7c8eef27edbb/scratchpad/imager-pick/04-storage.png","w":680,"h":482,
+ "css":"@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=block);",
+ "covers":[[298,112,345,58,"#bacce7"]],
+ "blocks":[{"x":302,"y":115,"font":"Roboto","weight":700,"size":14,"lh":19,"color":"#000","lines":["Realtek RTL9210B-CG Media"]},
+           {"x":302,"y":134,"font":"Roboto","size":12,"lh":17,"color":"#000","lines":["1 TB"]}]}
