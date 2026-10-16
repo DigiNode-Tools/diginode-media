@@ -375,6 +375,19 @@
       "url": "diginode.tools",
       "logo_width": 300,
       "text_width": 560
+    },
+    {
+      "id": "features",
+      "eyebrow": "Features",
+      "title": "Easy for beginners, flexible for experts",
+      "subtitle": "Everything DigiNode Tools can do for your DigiByte node.",
+      "url": "diginode.tools/features",
+      "text_width": 520,
+      "title_size": 56,
+      "image": {
+        "style": "art",
+        "file": "features"
+      }
     }
   ]
 }

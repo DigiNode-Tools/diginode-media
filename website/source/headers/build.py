@@ -32,6 +32,7 @@ TITLES = {
     "advanced-features": "Advanced Features",
     "why-run": "Unlocking the Power of Decentralization: Why You Should Run a DigiNode",
     "additional-features": "Additional Features",
+    "features": "Features",
     "release-notes": "Release Notes",
     "system-requirements": "System Requirements",
     "licence": "Software Licence",
