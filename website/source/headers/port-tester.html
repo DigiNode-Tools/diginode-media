@@ -1,0 +1,29 @@
+<style>
+.node{position:absolute;left:70px;top:76px;width:180px;display:flex;flex-direction:column;align-items:center;gap:14px;font-weight:800;font-size:22px}
+.node img{width:150px;height:150px;border-radius:50%;box-shadow:0 0 0 10px rgba(90,169,255,.14),0 0 50px rgba(90,169,255,.45)}
+.link{position:absolute;left:262px;top:150px;width:150px;height:4px;
+  background:repeating-linear-gradient(90deg,#5aa9ff 0 12px,transparent 12px 22px)}
+.link::after{content:"";position:absolute;right:-6px;top:-8px;border:10px solid transparent;border-left:14px solid #5aa9ff}
+.link span{position:absolute;left:0;right:0;top:-38px;text-align:center;font-weight:800;font-size:18px;letter-spacing:2px;color:#9cc8ff}
+.pt{position:absolute;left:432px;top:30px;width:500px;border-radius:18px;overflow:hidden;background:#0b1220;
+  border:2px solid rgba(156,200,255,.3);box-shadow:0 20px 40px rgba(0,0,0,.5)}
+.pt .head{padding:13px 22px;background:rgba(255,255,255,.06);font-weight:800;font-size:19px;letter-spacing:2px;color:#7fb8ff;text-transform:uppercase}
+.pt .body{padding:22px 22px 24px;display:flex;flex-direction:column;gap:16px}
+.pt .ok{display:flex;align-items:center;gap:18px;font-weight:800;font-size:31px;line-height:1.1;white-space:nowrap}
+.pt .tick{flex:none;width:58px;height:58px;border-radius:50%;background:#1fa463;display:flex;align-items:center;justify-content:center;
+  font-size:36px;box-shadow:0 0 0 8px rgba(31,164,99,.2)}
+.pt .ok small{display:block;white-space:normal;font-weight:700;font-size:20px;color:#9cc8ff;margin-top:6px}
+.pt .row{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:20px;color:#cfe4ff;
+  border-top:1px solid rgba(156,200,255,.18);padding-top:14px}
+.pt .chips{display:flex;gap:8px}
+.pt .chips span{padding:5px 13px;border-radius:999px;background:rgba(0,102,204,.4);font-weight:800;font-size:17px;color:#fff}
+</style>
+<div class="node"><img src="{{img:diginode-logo-round.png}}">Your DigiNode</div>
+<div class="link"><span>12024</span></div>
+<div class="pt">
+  <div class="head">Port test result</div>
+  <div class="body">
+    <div class="ok"><span class="tick">✓</span><span>Port 12024 is OPEN<small>Other DigiByte nodes can find you</small></span></div>
+    <div class="row"><span>Mainnet · Testnet</span><div class="chips"><span>IPv4</span><span>IPv6</span><span>.onion</span></div></div>
+  </div>
+</div>

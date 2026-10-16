@@ -1,0 +1,23 @@
+<style>
+.term{position:absolute;left:110px;top:22px;width:780px;border-radius:14px;overflow:hidden;background:#0b1220;
+  border:1px solid rgba(156,200,255,.3);box-shadow:0 20px 40px rgba(0,0,0,.55)}
+.term .bar{height:28px;background:#e8e8ea;display:flex;gap:8px;align-items:center;padding:0 12px}
+.term .bar i{width:12px;height:12px;border-radius:50%;background:#ff5f57}
+.term .bar i:nth-child(2){background:#febc2e} .term .bar i:nth-child(3){background:#28c840}
+.term .cols{display:flex;gap:40px;padding:18px 26px 20px}
+.term pre{margin:0;font:600 19px/1.75 "JetBrains Mono",Menlo,monospace;color:#cfe4ff;white-space:pre}
+.term .p{color:#4cc488} .term .f{color:#ffcc66} .term .c{color:#6f8aa8}
+.term .foot{padding:0 26px 18px;font:600 17px "JetBrains Mono",Menlo,monospace;color:#6f8aa8}
+</style>
+<div class="term"><div class="bar"><i></i><i></i><i></i></div>
+<div class="cols">
+<pre><span class="p">$</span> diginode-setup <span class="f">--unattended</span>
+<span class="p">$</span> diginode-setup <span class="f">--dgbver</span>=9.26.7
+<span class="p">$</span> diginode-setup <span class="f">--dgbpre</span>
+<span class="p">$</span> diginode-setup <span class="f">--help</span></pre>
+<pre><span class="p">$</span> diginode <span class="f">--dgbconf</span>
+<span class="p">$</span> diginode <span class="f">--settings</span>
+<span class="p">$</span> diginode <span class="f">--dgbpeers</span>
+<span class="p">$</span> diginode <span class="f">--help</span></pre>
+</div>
+<div class="foot"># ~/.digibyte/diginode.settings</div></div>

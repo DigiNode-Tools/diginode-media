@@ -1,0 +1,4 @@
+__pycache__/
+# Header previews and the copy of the website background used to draw them
+website/headers/preview/
+website/source/headers/blockchain.jpg
