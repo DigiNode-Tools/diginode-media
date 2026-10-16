@@ -1,5 +1,10 @@
 # DigiNode Tools screenshots for the website (2026-10-16)
 
+**Light and dark:** the screenshots here have a light-mode macOS title bar (Olly's choice for the website). The originals,
+with the dark-mode title bar, are in `dark/` - keep them for a dark mode on the website one day. Make the light version
+of a new capture with `../source/screenshots/lightbar.py dark/<name>.png <name>.png` (needs Pillow): it only redraws the
+title bar (light grey, dark title, the window buttons) and leaves the terminal and the shadow as they are.
+
 Captured on Olly's Raspberry Pi (DigiNode Tools develop = v26.10.05, DigiByte Core v9.26.7) in iTerm2, as macOS
 window captures WITH the window shadow (`screencapture -l<window id>`, window in front).
 
