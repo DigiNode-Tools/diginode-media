@@ -14,3 +14,5 @@ with a password).
   icon (`draggif.py`).
 
 Replace with new captures when Imager's look changes.
+
+- `imager2-download-mac.png` / `-win.png`: raspberrypi.com/software (captured from a browser window on 2026-10-16, cropped, download link highlighted).
