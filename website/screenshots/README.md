@@ -9,6 +9,8 @@ window captures WITH the window shadow (`screencapture -l<window id>`, window in
 - Screens that don't fit (`diginode-help.png`) are captured at **100x35** (same shape) and scaled to 682x569.
 - Menu screens that would change settings even when you back out (Chain, Tor, UPnP, System...) were drawn on the
   Pi with the exact `dialog` command from diginode-setup.sh - nothing was changed.
+- `diginode-unattended.png`: diginode.settings opened read-only (`nano -v`), 80x28.
+- `diginode-port-tester.png`: Dashboard > P, 100x53, with the public IP, ISP and location pixelated.
 - **DigiNode Dashboard** (`diginode-dashboard.png`): 100x53 with N pressed (IP addresses hidden). Edited: the
   "DIGIASSET NODE" sponsor row was removed and "dev-branch" replaced with v26.10.05 (the line was printed by the
   same terminal and copied in). Recapture after a release if the Dashboard changes.
