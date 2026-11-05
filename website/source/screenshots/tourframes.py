@@ -15,7 +15,7 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHOTS = os.path.normpath(os.path.join(HERE, "..", "..", "screenshots"))
 SETUP = ["diginode-setup-main-menu", "diginode-setup-wallets", "diginode-setup-update", "diginode-setup-chain", "diginode-setup-tor"]
-OTHER = ["diginode-dashboard"]
+OTHER = []
 
 
 def bar_end():
