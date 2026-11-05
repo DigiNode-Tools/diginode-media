@@ -1,6 +1,6 @@
 <style>
 .node{position:absolute;left:70px;top:76px;width:180px;display:flex;flex-direction:column;align-items:center;gap:14px;font-weight:800;font-size:22px}
-.node img{width:150px;height:150px;border-radius:50%;box-shadow:0 0 0 10px rgba(90,169,255,.14),0 0 50px rgba(90,169,255,.45)}
+.node svg{width:150px;height:150px;border-radius:50%;box-shadow:0 0 0 10px rgba(90,169,255,.14),0 0 50px rgba(90,169,255,.45)}
 .link{position:absolute;left:262px;top:150px;width:150px;height:4px;
   background:repeating-linear-gradient(90deg,#5aa9ff 0 12px,transparent 12px 22px)}
 .link::after{content:"";position:absolute;right:-6px;top:-8px;border:10px solid transparent;border-left:14px solid #5aa9ff}
@@ -9,21 +9,21 @@
   border:2px solid rgba(156,200,255,.3);box-shadow:0 20px 40px rgba(0,0,0,.5)}
 .pt .head{padding:13px 22px;background:rgba(255,255,255,.06);font-weight:800;font-size:19px;letter-spacing:2px;color:#7fb8ff;text-transform:uppercase}
 .pt .body{padding:22px 22px 24px;display:flex;flex-direction:column;gap:16px}
-.pt .ok{display:flex;align-items:center;gap:18px;font-weight:800;font-size:31px;line-height:1.1;white-space:nowrap}
-.pt .tick{flex:none;width:58px;height:58px;border-radius:50%;background:#1fa463;display:flex;align-items:center;justify-content:center;
-  font-size:36px;box-shadow:0 0 0 8px rgba(31,164,99,.2)}
+.pt .ok{display:flex;align-items:center;gap:18px;font-weight:800;font-size:26px;line-height:1.1;white-space:nowrap}
+.pt .tick{flex:none;width:58px;height:58px;border-radius:50%;background:#0066cc;display:flex;align-items:center;justify-content:center;
+  font-size:36px;box-shadow:0 0 0 8px rgba(90,169,255,.2)}
 .pt .ok small{display:block;white-space:normal;font-weight:700;font-size:20px;color:#9cc8ff;margin-top:6px}
 .pt .row{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:20px;color:#cfe4ff;
   border-top:1px solid rgba(156,200,255,.18);padding-top:14px}
 .pt .chips{display:flex;gap:8px}
 .pt .chips span{padding:5px 13px;border-radius:999px;background:rgba(0,102,204,.4);font-weight:800;font-size:17px;color:#fff}
 </style>
-<div class="node"><img src="{{img:diginode-logo-round.png}}">Your DigiNode</div>
+<div class="node"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 279"><path d="M139.2 0C62.3 0 0 62.4 0 139.2C0 216 62.4 278.4 139.2 278.4C216 278.4 278.5 216.1 278.5 139.2C278.5 62.3 216.1 0 139.2 0Z" fill="#0066CC"/><path d="M139.2 252.3C201.663 252.3 252.3 201.663 252.3 139.2C252.3 76.7366 201.663 26.1 139.2 26.1C76.7366 26.1 26.1 76.7366 26.1 139.2C26.1 201.663 76.7366 252.3 139.2 252.3Z" fill="#002352"/><path d="M174 82.5L178 72.1C178.4 71 177.6 69.9 176.5 69.9H161.6L156.9 82.2H150.3L154.1 72.1C154.5 71 153.7 69.9 152.6 69.9H137.7L133 82.2H86.3C84.2 82.2 82.2 83.4 81.1 85.2L69.5 105.7H85.7H156.6C159.5 105.7 162.3 106.2 165 107.3C170.2 109.4 176.3 114.2 174.7 125C172.2 143.1 153.7 175.1 113.7 175.6L134.4 121.8C135.2 119.6 133.6 117.3 131.2 117.3H103.5L70 199.5C70 199.5 76.7 200.3 87.3 200.3L83.9 208.9H99.3C100.5 208.9 101.6 208.2 102 207L104.9 199.6C107.2 199.4 109.4 199.1 111.8 198.9L108 208.9H123.3C124.5 208.9 125.6 208.2 126 207L130.4 195.7C155.5 190 182.3 177.5 198.4 151.3C230.7 98.5 197.2 84.9 174 82.5Z" fill="white"/></svg>Your node</div>
 <div class="link"><span>12024</span></div>
 <div class="pt">
-  <div class="head">Port test result</div>
+  <div class="head">Port test</div>
   <div class="body">
-    <div class="ok"><span class="tick">✓</span><span>Port 12024 is OPEN<small>Other DigiByte nodes can find you</small></span></div>
+    <div class="ok"><span class="tick">?</span><span>Can other nodes reach yours?<small>Test any DigiByte node's port below</small></span></div>
     <div class="row"><span>Mainnet · Testnet</span><div class="chips"><span>IPv4</span><span>IPv6</span><span>.onion</span></div></div>
   </div>
 </div>
