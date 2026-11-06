@@ -38,6 +38,7 @@ TITLES = {
     "licence": "Software Licence",
     "faq": "Frequently Asked Questions",
     "glossary": "Glossary",
+    "digibyte-seeder": "How to run a DigiByte Seeder",
     "support": "Support",
     "rpi-setup": "Raspberry Pi Setup Guide - One Page Setup",
     "build-a-diginode": "Build a DigiNode with Raspberry Pi 4",
