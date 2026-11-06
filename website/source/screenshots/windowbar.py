@@ -41,6 +41,8 @@ def button_row(im, top, end):
         else:
             groups.append([x])
     groups = [g for g in groups if len(g) >= 8][:3]
+    if len(groups) < 3:  # An inactive window's buttons are grey: they are always in the same place
+        return [72.0, 95.0, 118.0], 54.0, 7.0
     return [(g[0] + g[-1] + 1) / 2 for g in groups], (min(ys) + max(ys) + 1) / 2, (groups[0][-1] - groups[0][0] + 1) / 2
 
 
