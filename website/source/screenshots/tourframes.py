@@ -17,7 +17,7 @@ import windowbar  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHOTS = os.path.normpath(os.path.join(HERE, "..", "..", "screenshots"))
-SETUP = ["diginode-setup-main-menu", "diginode-setup-wallets", "diginode-setup-update", "diginode-setup-chain", "diginode-setup-tor"]
+SETUP = ["diginode-setup-main-menu", "diginode-setup-wallets", "diginode-setup-update", "diginode-setup-system-updates", "diginode-setup-chain", "diginode-setup-tor"]
 OTHER = []
 
 
