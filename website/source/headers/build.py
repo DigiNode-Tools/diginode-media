@@ -37,6 +37,7 @@ TITLES = {
     "system-requirements": "System Requirements",
     "licence": "Software Licence",
     "faq": "Frequently Asked Questions",
+    "glossary": "Glossary",
     "support": "Support",
     "rpi-setup": "Raspberry Pi Setup Guide - One Page Setup",
     "build-a-diginode": "Build a DigiNode with Raspberry Pi 4",
