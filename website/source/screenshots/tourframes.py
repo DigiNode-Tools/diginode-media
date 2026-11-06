@@ -12,6 +12,9 @@ import sys
 
 from PIL import Image
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import windowbar  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHOTS = os.path.normpath(os.path.join(HERE, "..", "..", "screenshots"))
 SETUP = ["diginode-setup-main-menu", "diginode-setup-wallets", "diginode-setup-update", "diginode-setup-chain", "diginode-setup-tor"]
@@ -27,6 +30,13 @@ def bar_end():
     return rows[-1] + 1
 
 
+def darken(im, end):
+    """The same window with a dark title bar: only the bar's inside changes, and the buttons are redrawn."""
+    top, _ = windowbar.bar_rows(im)
+    centres, cy, radius = windowbar.button_row(im, top, end)
+    return windowbar.recolour(im, top, end, windowbar.DARK_BAR, windowbar.TEXT_DARK, centres, cy, radius, source=233)
+
+
 def main():
     out = sys.argv[1]
     end = bar_end()
@@ -38,7 +48,11 @@ def main():
         os.makedirs(os.path.join(out, mode), exist_ok=True)
         for name in SETUP:
             im = Image.open(os.path.join(SHOTS, name + ".png")).convert("RGBA")  # newest terminal content
-            im.paste(bar, (0, 0))
+            # Every frame gets the main menu's title bar, then the dark version is that same window recoloured, so the
+            # window's edge and shadow are the true ones (a pasted dark capture left a black edge and a step in the shadow)
+            im.paste(bars["light"], (0, 0))
+            if mode == "dark":
+                im = darken(im, end)
             im.save(os.path.join(out, mode, name + ".png"), optimize=True)
         for name in OTHER:
             src = os.path.join(SHOTS, "dark", name + ".png") if mode == "dark" else os.path.join(SHOTS, name + ".png")
