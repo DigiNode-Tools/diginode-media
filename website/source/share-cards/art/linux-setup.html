@@ -1,0 +1,22 @@
+<style>
+.ls{position:absolute;right:66px;top:92px;width:480px;display:flex;flex-direction:column;gap:16px}
+.ls .rows{border-radius:18px;overflow:hidden;background:rgba(255,255,255,.07);border:2px solid rgba(156,200,255,.28)}
+.ls .row{display:flex;align-items:center;gap:18px;padding:15px 24px;border-top:1px solid rgba(156,200,255,.18)}
+.ls .row:first-child{border-top:0}
+.ls .ic{flex:none;width:46px;height:46px;border-radius:12px;background:rgba(0,102,204,.55);display:flex;align-items:center;justify-content:center}
+.ls .ic svg{width:26px;height:26px}
+.ls .v{font-weight:800;font-size:25px;line-height:1.2}
+.ls .term{border-radius:14px;overflow:hidden;background:rgba(11,18,32,.92);border:2px solid rgba(156,200,255,.32)}
+.ls .bar{display:flex;gap:7px;padding:10px 14px;background:#1c2536}
+.ls .bar b{width:12px;height:12px;border-radius:50%;background:#ff5f57}.ls .bar b:nth-child(2){background:#febc2e}.ls .bar b:nth-child(3){background:#28c840}
+.ls .cmd{padding:16px 20px;font:600 19px 'JetBrains Mono',monospace;color:#e8f0fb;white-space:nowrap}
+.ls .cmd span{color:#5fd38a}
+</style>
+<div class="ls">
+  <div class="rows">
+    <div class="row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></span><span class="v">A computer at home</span></div>
+    <div class="row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M6 2h14a2 2 0 0 1 2 2v10"/><path d="M6 10h6"/><path d="M6 14h4"/></svg></span><span class="v">A virtual machine</span></div>
+    <div class="row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg></span><span class="v">A rented server</span></div>
+  </div>
+  <div class="term"><div class="bar"><b></b><b></b><b></b></div><div class="cmd"><span>$</span> curl -sSL setup.diginode.tools | bash</div></div>
+</div>
