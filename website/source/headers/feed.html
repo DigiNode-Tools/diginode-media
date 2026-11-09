@@ -1,0 +1,67 @@
+<!-- The feed page (/feed/, /feed/atom/, /subscribe/): the feed in the middle, sending each new post to feed reader apps
+     on a computer and a phone. -->
+<style>
+.feed{position:absolute;left:428px;top:66px;width:144px;height:144px;border-radius:32px;background:linear-gradient(145deg,#ff8a3d,#f26522 55%,#d9480f);
+  display:flex;align-items:center;justify-content:center;z-index:3;
+  box-shadow:0 0 0 12px rgba(242,101,34,.16),0 0 0 26px rgba(242,101,34,.07),0 0 70px rgba(242,101,34,.5),0 16px 30px rgba(0,0,0,.4)}
+.lbl{position:absolute;left:400px;width:200px;top:236px;text-align:center;display:flex;justify-content:center;gap:8px}
+.lbl span{font-weight:800;font-size:15px;letter-spacing:1.5px;padding:4px 12px;border-radius:999px;background:rgba(255,255,255,.1);border:2px solid rgba(156,200,255,.3)}
+/* the link from the feed to each app: a dashed line with posts travelling along it */
+.wire{position:absolute;top:137px;height:3px;background:repeating-linear-gradient(90deg,rgba(156,200,255,.55) 0 10px,transparent 10px 18px)}
+.pkt{position:absolute;top:128px;width:20px;height:20px;border-radius:6px;background:#0066CC;border:2px solid #9cc8ff;box-shadow:0 0 14px rgba(90,169,255,.7)}
+/* feed reader on a computer */
+.win{position:absolute;left:70px;top:52px;width:290px;height:226px;border-radius:16px;background:rgba(32,52,92,.95);border:2px solid rgba(156,200,255,.3);
+  box-shadow:0 16px 30px rgba(0,0,0,.42);overflow:hidden;transform:rotate(-3deg)}
+.bar{height:30px;display:flex;align-items:center;gap:7px;padding:0 12px;background:rgba(255,255,255,.07);border-bottom:2px solid rgba(156,200,255,.15)}
+.bar b{width:11px;height:11px;border-radius:50%;background:rgba(207,228,255,.35)}
+.row{display:flex;align-items:center;gap:10px;padding:11px 14px;border-bottom:1px solid rgba(156,200,255,.12)}
+.row img{width:30px;height:30px;border-radius:50%;flex:none}
+.row .tx{flex:1}
+.row i{display:block;height:9px;border-radius:5px;background:rgba(207,228,255,.5);margin:3px 0}
+.row i.s{width:55%;background:rgba(207,228,255,.28)}
+.row u{width:11px;height:11px;border-radius:50%;background:#f26522;flex:none}
+.row.new{background:rgba(0,102,204,.35)}
+.row.new i{background:rgba(255,255,255,.85)}
+.row.old{opacity:.55}
+.new-tag{font-weight:800;font-size:11px;letter-spacing:1px;padding:2px 8px;border-radius:999px;background:#1fa463;margin-left:6px;vertical-align:middle}
+/* feed reader on a phone */
+.phone{position:absolute;left:690px;top:30px;width:158px;height:290px;border-radius:30px;background:#0d1f43;border:3px solid rgba(156,200,255,.45);
+  box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(4deg);overflow:hidden}
+.notch{width:56px;height:14px;border-radius:0 0 10px 10px;background:rgba(156,200,255,.3);margin:0 auto 12px}
+.note{margin:0 10px 10px;padding:9px;border-radius:14px;background:rgba(255,255,255,.92);color:#002352;display:flex;gap:8px;align-items:center;box-shadow:0 6px 14px rgba(0,0,0,.35)}
+.note img{width:26px;height:26px;border-radius:50%;flex:none}
+.note b{display:block;font-weight:800;font-size:11.5px;line-height:1.2}
+.note small{display:block;font-weight:700;font-size:10.5px;color:#4a6290;line-height:1.2}
+.prow{display:flex;gap:8px;align-items:center;margin:0 12px 10px;padding-bottom:10px;border-bottom:1px solid rgba(156,200,255,.15)}
+.prow img{width:22px;height:22px;border-radius:50%;flex:none;opacity:.8}
+.prow div{flex:1}
+.prow i{display:block;height:7px;border-radius:4px;background:rgba(207,228,255,.4);margin:3px 0}
+.prow i.s{width:60%;background:rgba(207,228,255,.22)}
+</style>
+
+<div class="wire" style="left:356px;width:76px"></div>
+<div class="wire" style="left:568px;width:126px"></div>
+<div class="pkt" style="left:380px"></div>
+<div class="pkt" style="left:620px"></div>
+
+<div class="win">
+  <div class="bar"><b></b><b></b><b></b></div>
+  <div class="row new"><img src="{{img:diginode-logo-round.png}}"><div class="tx"><i style="width:70%"></i><i class="s"></i></div><u></u></div>
+  <div class="row"><img src="{{img:diginode-logo-round.png}}"><div class="tx"><i style="width:82%"></i><i class="s"></i></div><u></u></div>
+  <div class="row old"><img src="{{img:diginode-logo-round.png}}"><div class="tx"><i style="width:64%"></i><i class="s"></i></div></div>
+  <div class="row old"><img src="{{img:diginode-logo-round.png}}"><div class="tx"><i style="width:76%"></i><i class="s"></i></div></div>
+</div>
+
+<div class="feed">
+  <svg width="84" height="84" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M6.2 15.6a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM4 9.6a10.4 10.4 0 0 1 10.4 10.4h-3A7.4 7.4 0 0 0 4 12.6v-3Zm0-5.6c8.84 0 16 7.16 16 16h-3c0-7.18-5.82-13-13-13V4Z"/></svg>
+</div>
+<div class="lbl"><span>RSS</span><span>ATOM</span></div>
+
+<div class="phone">
+  <div class="notch"></div>
+  <div class="note"><img src="{{img:diginode-logo-round.png}}"><div><b>DigiNode Tools</b><small>New post</small></div></div>
+  <div class="prow"><img src="{{img:diginode-logo-round.png}}"><div><i></i><i class="s"></i></div></div>
+  <div class="prow"><img src="{{img:diginode-logo-round.png}}"><div><i></i><i class="s"></i></div></div>
+  <div class="prow"><img src="{{img:diginode-logo-round.png}}"><div><i></i><i class="s"></i></div></div>
+  <div class="prow"><img src="{{img:diginode-logo-round.png}}"><div><i></i><i class="s"></i></div></div>
+</div>

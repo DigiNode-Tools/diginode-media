@@ -44,6 +44,7 @@ TITLES = {
     "rpi-setup": "Raspberry Pi Setup Guide - One Page Setup",
     "build-a-diginode": "Build a DigiNode with Raspberry Pi 4",
     "linux-setup": "Linux Setup",
+    "feed": "Follow DigiNode Tools",
 }
 
 
