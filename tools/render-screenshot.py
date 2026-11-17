@@ -51,7 +51,8 @@ PALETTE = {
     "yellow": (199, 196, 0), "blue": (2, 37, 199), "magenta": (201, 48, 199), "cyan": (0, 197, 199),
     "white": (199, 199, 199),
     "brightblack": (103, 103, 103), "brightred": (255, 110, 103), "brightgreen": (95, 250, 104),
-    "brightyellow": (255, 252, 103), "brightblue": (104, 113, 255), "brightmagenta": (255, 119, 255),
+    "brightyellow": (255, 252, 103), "brightbrown": (255, 252, 103),   # pyte calls bright yellow (ESC[93m) brightbrown
+    "brightblue": (104, 113, 255), "brightmagenta": (255, 119, 255),
     "brightcyan": (96, 253, 255), "brightwhite": (255, 255, 255),
 }
 DEFAULT_FG, DEFAULT_BG = (220, 220, 220), (16, 16, 20)
