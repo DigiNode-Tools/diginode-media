@@ -60,6 +60,18 @@
    }
   },
   {
+   "id": "vanity",
+   "eyebrow": "Free tool",
+   "title": "DigiByte Vanity Address",
+   "subtitle": "Make a DigiByte address with letters you choose. Runs in your browser: your keys never leave your device.",
+   "url": "diginode.tools/digibyte-vanity-address",
+   "text_width": 540,
+   "image": {
+    "style": "art",
+    "file": "vanity"
+   }
+  },
+  {
    "id": "tronbyt-apps",
    "eyebrow": "Tronbyt Apps",
    "title": "DigiByte Apps for Tronbyt",
