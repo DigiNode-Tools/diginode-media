@@ -110,10 +110,10 @@
   },
   {
    "id": "digibyte-seeder",
-   "eyebrow": "Guide",
-   "title": "How to run a DigiByte Seeder",
-   "subtitle": "Help keep the DigiByte network robust: a lightweight crawler that lists reliable nodes over DNS.",
-   "url": "diginode.tools/running-a-digibyte-seeder",
+   "eyebrow": "Free tool",
+   "title": "DigiNode Seeder",
+   "subtitle": "Set up a DigiByte DNS seeder on your own server with a single command. Help new nodes find the network.",
+   "url": "diginode.tools/diginode-seeder",
    "text_width": 560,
    "title_size": 60,
    "image": {
